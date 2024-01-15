@@ -17,3 +17,20 @@ print(Lista_2[0])
 print(Lista_2[6])
 print(Lista_2[-1])
 print(Lista_2[-7])
+
+# Podemos concatenar listas
+print(Lista_1 + Lista_2)
+
+# Para aniadir otros elementos se usa append e insert
+Lista_2.append("Gojo")
+print(Lista_2)
+
+Lista_2.insert(0, "Purpura")
+print(Lista_2)
+
+#Para eliminar elemento en la lista
+Lista_2.remove("Apolo")
+print(Lista_2)
+
+print(Lista_2.pop())
+print(Lista_2)
