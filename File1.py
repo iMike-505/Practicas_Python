@@ -28,9 +28,20 @@ print(Lista_2)
 Lista_2.insert(0, "Purpura")
 print(Lista_2)
 
-#Para eliminar elemento en la lista
+Lista_2.insert(1, "Rojo")
+print(Lista_2)
+
+#Para eliminar elemento en la lista se usa remove, para eliminar todo, se usa clear 
 Lista_2.remove("Apolo")
 print(Lista_2)
 
 print(Lista_2.pop())
 print(Lista_2)
+
+Lista_3 = Lista_2.copy()
+print(Lista_3)
+
+# Ordena la lista al reves
+Lista_3.reverse()
+print(Lista_3)
+
